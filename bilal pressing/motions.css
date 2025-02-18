@@ -1,0 +1,75 @@
+.key {
+  font-size: 2em;
+  display: inline-block;
+  transition: transform 2s;
+  color: blue;
+  margin-bottom: 10px;  
+  letter-spacing: 3px;
+  font-family: cursive;
+}
+
+
+.key:hover{
+  color: #70a9ff;
+  cursor: pointer;
+}
+@keyframes pressDown {
+  30%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  35% {
+    transform: translateY(10px);
+  }
+}
+
+.key:nth-child(1) {
+  animation: pressDown 2s infinite;
+}
+
+.key:nth-child(2) {
+  animation: pressDown 3s infinite;
+}
+
+.key:nth-child(3) {
+  animation: pressDown 4s infinite;
+}
+
+.key:nth-child(4) {
+  animation: pressDown 2.5s infinite;
+}
+
+.key:nth-child(5) {
+  animation: pressDown 4s infinite;
+}
+
+.key:nth-child(6) {
+  animation: pressDown 3.5s infinite;
+}
+
+.key:nth-child(7) {
+  animation: pressDown 2.2s infinite;
+}
+
+.key:nth-child(8) {
+  animation: pressDown 2s infinite; /* Added correct animation */
+}
+.key:nth-child(9) {
+  animation: pressDown 3s infinite; /* Added correct animation */
+}
+.key:nth-child(10) {
+  animation: pressDown 1s infinite; /* Added correct animation */
+}
+.key:nth-child(11) {
+  animation: pressDown 3s infinite; /* Added correct animation */
+}
+.key:nth-child(12) {
+  animation: pressDown 2s infinite; /* Added correct animation */
+}
+.key:nth-child(13) {
+  animation: pressDown 3.5s infinite; /* Added correct animation */
+}
+.key:nth-child(14) {
+  animation: pressDown 4s infinite; /* Added correct animation */
+}
